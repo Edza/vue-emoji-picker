@@ -1,12 +1,7 @@
 <template>
     <div>
-        <slot
-            name="emoji-invoker"
-            :events="{ click: (e) => toggle(e) }"
-        ></slot>
         <div
-            v-if="display.visible"
-            v-click-outside="hide"
+            v-if="isOpen"
         >
             <slot
                 name="emoji-picker"
@@ -35,6 +30,13 @@
                     return emojis
                 },
             },
+            isOpen: {
+                type: Boolean,
+                required: false,
+                default() {
+                    return false
+                },
+            }
         },
         data() {
             return {
