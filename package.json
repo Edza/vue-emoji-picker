@@ -1,7 +1,7 @@
 {
-  "name": "vue-emoji-picker",
-  "description": "Simple Vue.js emoji picker with unicode characters",
-  "version": "1.0.0",
+  "name": "vue-emoji-picker-fork",
+  "description": "FORK FOR Simple Vue.js emoji picker with unicode characters",
+  "version": "1.0.2",
   "main": "dist-module/main.js",
   "scripts": {
     "prepublish": "npm run build && npm run browser-build",
@@ -19,16 +19,16 @@
     "vue": "vue/dist/vue.common.js"
   },
   "repository": {
-    "url": "git+https://github.com/DCzajkowski/vue-emoji-picker.git",
+    "url": "git+https://github.com/edza/vue-emoji-picker.git",
     "type": "git"
   },
   "keywords": [],
   "author": "Dariusz Czajkowski <dare.czajkowski@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DCzajkowski/vue-emoji-picker/issues"
+    "url": "https://github.com/edza/vue-emoji-picker/issues"
   },
-  "homepage": "https://github.com/DCzajkowski/vue-emoji-picker#readme",
+  "homepage": "https://github.com/edza/vue-emoji-picker#readme",
   "typings": "src/@types",
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -53,6 +53,7 @@
     "proxyquireify": "^3.0.1",
     "sass-loader": "^5.0.1",
     "uglify-js": "^2.5.0",
+    "vue": "^2.5.16",
     "vue-loader": "^12.1.0",
     "vue-template-compiler": "^2.3.3",
     "vueify": "^9.4.1",

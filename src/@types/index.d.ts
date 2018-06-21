@@ -1,1 +1,1 @@
-declare module 'vue-emoji-picker';
+declare module 'vue-emoji-picker-fork';
